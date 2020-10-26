@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles1.css">
+   <title>Pokedex</title>
+</head>
+<body>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 "></div>
+        <div class="col-xs-6 col-sm-4 container">
+            <div class="row header">
+                <div class="col-s-2 col1">
+                    <div class="row row1" id="searchBar">
+                        <div class="col-md-6 inCol1-cntr">
+                            <div>
+                                <button id="up">^</button>
+                            </div>
+                            <div class="inCol1">
+                                <button id="left">L</button>
+                                <button id="search">S</button>
+                                <button id="right">R</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contenedor" id="searchBox">
+                        <input type="text" placeholder="Ingrese nombre">
+                        <button class="text-white btn bg-danger" id="buton">Buscar</button>
+                        <img src="" id="img" class="pokemon">
+                        <p id="info" class="text-white"></p>
+                    </div> 
+                </div>
+            </div>
+            <div class="row main">
+                <div class="row grid-rw">
+                    <div class="card" id="pk-card">
+                        <div class="row img-card">
+                            <img src='' id="pokeImg"class="img-s">
+                        </div>
+                        <div class="row txt-card">
+                            <div class="col-xs-6">
+                                <p class="text-left" id="pokeNum"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row"></div>
+            </div>
+            <div class="row footer">
+                <div class="col-s-2 col1H">
+                    <div class="row row2">
+                        <div class="col-md-6 inCol1-cntr">
+                            <div class="inCol1">
+                                <button id="return">R</button>
+                                <button id="down">V</button>
+                                <button id="cancel">E</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4"></div>
+      </div>
+    <script src="index.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+ 

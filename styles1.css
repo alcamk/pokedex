@@ -1,0 +1,100 @@
+.container{
+    background-color: cornflowerblue;
+    width: max-content;
+    height: 720px
+}
+
+.header{
+    height: 25%;
+    background-color: red;
+    justify-content: center;
+    justify-content: flex-end;
+
+}
+.main{
+    height: 50%;
+    display: grid;
+    margin: 0px;
+}
+.card{
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: aqua;
+}
+.contenedor{
+    display: none;
+}
+.icon{
+    margin-right: 4px;
+    margin-bottom: -10px;
+}
+.img-card{
+    justify-content: space-around;
+}
+.img-s{
+    margin-top: 0px;
+    margin-bottom: -13px;
+}
+.txt-card{
+    justify-content: space-between;
+    margin-right: inherit;
+}
+.btm-inf{
+    display: flex;
+    padding-left: 13px; 
+}
+.pimg{
+    width: 70%;
+    height: 70%;
+}
+.grid-rw{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.footer{
+    height: 25%;
+    background-color: red;
+    justify-content: center;
+
+}
+.div-clmn{
+    background-color: violet;
+}
+
+.col1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.col2{
+    background-color: darkgray;
+    width: fit-content;
+
+}
+.row1{
+    height: 50%;
+    background-color: black;
+    align-content: flex-end;
+}
+.row2{
+    height: 50%;
+    background-color: black;
+    align-content: flex-start;
+}
+.btn-cntn{
+    background-color: darkseagreen;
+}
+.inCol1{
+    display: flex;
+    align-items: flex-end;
+}
+.inCol1-cntr{
+    display: grid;
+    justify-items: center;
+}
+.pk-num{
+    padding-left: 35px;
+}
